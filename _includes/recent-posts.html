@@ -1,0 +1,38 @@
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+<h1>Recent News</h1>
+<ul class="home-posts">
+    {% for post in site.posts limit:3 %}
+    <li class="home-post-item">
+        <div class="col-md-4">
+            <div class="card">
+
+                <div class="card-height-indicator"></div>
+
+                <div class="card-content">
+
+                    <div class="card-image">
+                        <img src="{{ site.github.url }}{{ post.img }}" alt="{{ post.title }}">
+                        <h3 class="card-image-headline">{{ post.title }}<br>
+                        <span class="post-date">{{ post.date | date: '%B %d, %Y' }}</span></h3>
+                    </div>
+
+                    <div class="card-body">
+                        {{ post.excerpt }}
+                    </div>
+
+                    <footer class="card-footer">
+                        <a href="{{ post.url }}" class="btn btn-primary btn-lg btn-block btn-raised">Read</a>
+                    </footer>
+
+                </div>
+
+            </div>
+          </div>
+
+    </li>
+    {% endfor %}
+</ul>
+</div>
+</div>

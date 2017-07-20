@@ -1,0 +1,35 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: GooleWelding
+email: naamanh10@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Yorkshire & North Lincolnshire's premier engineering services
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+port: 8000
+# Social media profiles - feel free to add more here
+twitter_username: SBootstrap
+github_username:  BlackrockDigital
+facebook_username: StartBootstrap
+#instagram_username: beyonce
+#stackoverflow_url: https://
+#googleplus_username: BobMarley
+#skype_username: echo123
+#linkedin_url: https://
+
+# Address information
+address_street: New Potter Grange Road
+address_street2: M62 Trading Estate
+address_city: Goole
+address_state: East Yorks.
+address_zip: DN14 6BZ
+
+
+# Build settings
+markdown: kramdown

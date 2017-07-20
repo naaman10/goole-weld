@@ -1,0 +1,54 @@
+<!--header-->
+<div class="row">
+    <div class="col-lg-12">
+
+
+
+            <h1 class="secondary-title">{{ page.title }}</h1>
+
+
+
+    </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+<h1>Latest Openings <span class="badge" alt="There are {{ site.categories.Jobs | size }} openings">{{ site.categories.Jobs | size }}</span></h1>
+<ul class="home-posts">
+  {% if site.categories.Jobs | size => 1 %}
+    {% for post in site.categories.Jobs %}
+    <li class="home-post-item">
+        <div class="col-md-4">
+            <div class="card">
+
+                <div class="card-height-indicator"></div>
+
+                <div class="card-content">
+
+                    <div class="card-image">
+                        <img src="{{ site.github.url }}{{ post.img }}" alt="{{ post.title }}">
+                        <h3 class="card-image-headline">{{ post.title }}</h3>
+                    </div>
+
+                    <div class="card-body">
+                        {{ post.excerpt }}
+                    </div>
+
+                    <footer class="card-footer">
+                        <a href="{{ post.url }}" class="btn btn-primary btn-lg btn-block btn-raised">Read</a>
+                    </footer>
+
+                </div>
+
+            </div>
+          </div>
+
+    </li>
+  {% endfor %}
+</ul>
+
+{% else %}
+<h4> Sorry, there are currently no openings</h4>
+{% endif %}

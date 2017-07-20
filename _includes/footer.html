@@ -1,0 +1,83 @@
+<!-- Footer -->
+<footer class="text-center footer-footer">
+    <div class="footer-above">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-md-4">
+                    <h3>Location</h3>
+
+                    <p>
+                      <span class="name">{{ site.title }}</span><br>
+                      {{ site.address_street }}
+                      <br>{{ site.address_street2 }}
+                        <br>{{ site.address_city }}, {{ site.address_state }} {{ site.address_zip }}</p>
+                        <a href="https://www.google.co.uk/maps/place/Goole+Welding+Ltd/@53.701949,-0.8991867,17z/data=!3m1!4b1!4m5!3m4!1s0x48791f3d66a4c5cd:0x16d5fd9a4d3652d!8m2!3d53.701949!4d-0.896998" target="_blank"><i class="material-icons">place</i>Find on maps</a>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Around the Web</h3>
+                    <ul class="list-inline">
+                        {% if site.facebook_username %}
+                        <li>
+                            <a href="https://www.facebook.com/{{ site.facebook_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.twitter_username %}
+                        <li>
+                            <a href="https://twitter.com/{{ site.twitter_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.github_username %}
+                        <li>
+                            <a href="https://github.com/{{ site.github_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.instagram_username %}
+                        <li>
+                            <a href="https://www.instagram.com/{{ site.instagram_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.stackoverflow_url %}
+                        <li>
+							<a href="{{ site.stackoverflow_url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.googleplus_username %}
+                        <li>
+							<a href="https://plus.google.com/+{{ site.googleplus_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.skype_username %}
+                        <li>
+							<a href="skype:{{ site.skype_username }}?call" class="btn-social btn-outline"><i class="fa fa-fw fa-skype"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.linkedin_url %}
+                        <li>
+							<a href="{{ site.linkedin_url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Designed By</h3>
+                    <a href="http://www.naamanhudson.com"><p>Naaman Hudson Web Design</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-below">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    Copyright &copy; GooleWelding {{ site.time | date: "%Y" }}
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+    <a class="btn btn-primary" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</div>
