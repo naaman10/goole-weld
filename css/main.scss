@@ -45,7 +45,7 @@ text-transform: none;
 }
 #top {
   // background-color: $goole-blue;
-  background: url('/assets/chemical_carousel.jpg');
+  background: url('{{ site.github.url }}/assets/chemical_carousel.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
