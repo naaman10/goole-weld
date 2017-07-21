@@ -4,10 +4,10 @@
     <title>GooleWelding</title>
     <description>Yorkshire &amp; North Lincolnshire's premier engineering services
 </description>
-    <link>http://0.0.0.0:8000/</link>
-    <atom:link href="http://0.0.0.0:8000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Jul 2017 22:14:47 +0100</pubDate>
-    <lastBuildDate>Fri, 21 Jul 2017 22:14:47 +0100</lastBuildDate>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 21 Jul 2017 22:24:23 +0100</pubDate>
+    <lastBuildDate>Fri, 21 Jul 2017 22:24:23 +0100</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
@@ -18,8 +18,8 @@
 
 </description>
         <pubDate>Wed, 24 Aug 2016 21:08:10 +0100</pubDate>
-        <link>http://0.0.0.0:8000/design/2016/08/24/latest.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:8000/design/2016/08/24/latest.html</guid>
+        <link>http://yourdomain.com/design/2016/08/24/latest.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/design/2016/08/24/latest.html</guid>
         
         
         <category>Design</category>
@@ -76,8 +76,8 @@
 &lt;p&gt;Nights: £14.00 per hour for basic hours, £16.00 per hour for overtime during the week and Saturday’s and £18.00 per hour for Sunday’s.&lt;/p&gt;
 </description>
         <pubDate>Mon, 22 Aug 2016 21:08:10 +0100</pubDate>
-        <link>http://0.0.0.0:8000/jobs/2016/08/22/new-job.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:8000/jobs/2016/08/22/new-job.html</guid>
+        <link>http://yourdomain.com/jobs/2016/08/22/new-job.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jobs/2016/08/22/new-job.html</guid>
         
         
         <category>Jobs</category>
@@ -92,8 +92,8 @@
 
 </description>
         <pubDate>Wed, 03 Feb 2016 20:08:10 +0000</pubDate>
-        <link>http://0.0.0.0:8000/design/2016/02/03/game.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:8000/design/2016/02/03/game.html</guid>
+        <link>http://yourdomain.com/design/2016/02/03/game.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/design/2016/02/03/game.html</guid>
         
         
         <category>Design</category>
@@ -108,8 +108,8 @@
 
 </description>
         <pubDate>Tue, 02 Feb 2016 20:08:10 +0000</pubDate>
-        <link>http://0.0.0.0:8000/design/2016/02/02/safe.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:8000/design/2016/02/02/safe.html</guid>
+        <link>http://yourdomain.com/design/2016/02/02/safe.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/design/2016/02/02/safe.html</guid>
         
         
         <category>Design</category>
@@ -124,8 +124,8 @@
 
 </description>
         <pubDate>Mon, 01 Feb 2016 20:08:10 +0000</pubDate>
-        <link>http://0.0.0.0:8000/design/2016/02/01/submarine.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:8000/design/2016/02/01/submarine.html</guid>
+        <link>http://yourdomain.com/design/2016/02/01/submarine.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/design/2016/02/01/submarine.html</guid>
         
         
         <category>Design</category>
